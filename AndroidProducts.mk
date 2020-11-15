@@ -14,9 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_ysl.mk
+    $(LOCAL_DIR)/aosp_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_ysl-user \
-    legion_ysl-userdebug \
-    legion_ysl-eng
+    aosp_ysl-userdebug
